@@ -1,7 +1,7 @@
 ---
 title: "Test"
 date: 2022-03-24T18:52:03+09:00
-draft: true
+draft: false
 categories:
   - category
   - subcategory

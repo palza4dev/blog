@@ -15,8 +15,13 @@ draft: False
 
   - 아아아아
 
-  ```python
+  ```py3
   # 어차피 새로시작하ㅣㅇ널미ㅏ날
+  import part
+
+  def fkfk():
+    return pass
+
   x = as
 
   y = this is the new s

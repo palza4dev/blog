@@ -2,8 +2,3 @@ baseURL = 'https://palza4dev.github.io'
 languageCode = 'en-us'
 title = 'Hey !! this is title'
 theme = 'PaperMod'
-
-
-[params]
-remark42SiteID = "myblog"
-remark42Url = "http://13.125.251.182"

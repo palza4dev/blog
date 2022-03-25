@@ -1,9 +1,53 @@
 baseURL = 'https://palza4dev.github.io'
 languageCode = 'en-us'
-title = 'Hey !! this is title'
+title = 'Mooner'
 theme = 'PaperMod'
+
 googleAnalytics = 'G-T68TSV1RG4'
-shortname = "devblog-gdzaz0odmp"
+
+disqusShortname = "devblog-gdzaz0odmp"
 
 [params]
-comments= true
+env = 'production'
+comments = true
+description = "Mooner's dev blog"
+
+ShowShareButtons = true
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+Title = "Hi there!"
+Content = "이야기해보아요"
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1_000
+threshold = 0.4
+minMatchCharLength = 0
+keys = [ "title", "permalink", "summary", "content" ]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "github"
+name = "Github"
+url = "https://github.com/palza4dev"
+weight = 30

@@ -4,5 +4,6 @@ title = 'Hey !! this is title'
 theme = 'PaperMod'
 
 
-# [params]
-# comments = true
+[params]
+remark42SiteID = "https://palza4dev.github.io/"
+remark42Url = "http://13.125.251.182"

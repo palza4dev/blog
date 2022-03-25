@@ -2,3 +2,6 @@ baseURL = 'https://palza4dev.github.io'
 languageCode = 'en-us'
 title = 'Hey !! this is title'
 theme = 'PaperMod'
+
+[params]
+comments = true

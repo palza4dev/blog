@@ -1,6 +1,10 @@
 ---
 title: "About"
-date: 2022-03-25T14:42:00+09:00
 menu: "main"
 weight: 1
+comments: false
+ShowReadingTime: false
+ShowShareButtons: false
+ShowToc: false
+TocOpen: false
 ---

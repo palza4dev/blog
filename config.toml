@@ -18,10 +18,6 @@ ShowToc = true
 TocOpen = true
 ShowBreadCrumbs = true
 
-[params.homeInfoParams]
-Title = "Hi there!"
-Content = "이야기해보아요"
-
 [params.fuseOpts]
 isCaseSensitive = false
 shouldSort = true
@@ -51,3 +47,9 @@ identifier = "github"
 name = "Github"
 url = "https://github.com/palza4dev"
 weight = 30
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+[markup.highlight]
+noClasses = false

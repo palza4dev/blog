@@ -3,9 +3,7 @@ languageCode = 'en-us'
 title = 'Hey !! this is title'
 theme = 'PaperMod'
 googleAnalytics = 'G-T68TSV1RG4'
+shortname = "devblog-gdzaz0odmp"
 
-[params.page.comment]
-      enable = true
-      [params.page.comment.disqus]
-        enable = true
-        shortname = "devblog-gdzaz0odmp"
+[params]
+comments= true

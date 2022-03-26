@@ -13,16 +13,6 @@ category = "categories"
 tag = "tags"
 series = "series"
 
-# robots.txt
-enableRobotsTXT = true
-
-# sitemap 생성
-[sitemap]
-# always, hourly daily, weekly, monthly, yearly, never
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
 [params]
 env = 'production'
 comments = true

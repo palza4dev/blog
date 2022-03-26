@@ -33,6 +33,7 @@ env = 'production'
 comments = true
 description = "Mooner's dev blog"
 
+ShowFullTextinRSS = true
 ShowShareButtons = true
 ShowReadingTime = true
 ShowPostNavLinks = true

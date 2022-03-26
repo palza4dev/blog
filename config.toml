@@ -7,9 +7,6 @@ googleAnalytics = 'G-T68TSV1RG4'
 
 disqusShortname = "devblog-gdzaz0odmp"
 
-# robots.txt
-enableRobotsTXT = true
-
 # sitemap 생성
 [sitemap]
   changefreq = "daily"

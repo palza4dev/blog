@@ -7,11 +7,29 @@ googleAnalytics = 'G-T68TSV1RG4'
 
 disqusShortname = "devblog-gdzaz0odmp"
 
+# robots.txt
+enableRobotsTXT = true
+
+# sitemap 생성
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [taxonomies]
 author = "authors"
 category = "categories"
 tag = "tags"
 series = "series"
+
+[params.assets]
+disableHLJS = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+style = "monokai"
 
 [params]
 env = 'production'

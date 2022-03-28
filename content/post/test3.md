@@ -6,7 +6,7 @@ draft: false
 series: ["the very first"]
 categories: ["test list"]
 tags: ["test"]
-draft: false
+images: ["/images/testforblog.png"]
 ---
 
 Shows Index/Home page as Full Page with Social Links and Image

@@ -1,3 +1,7 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/palza4dev/hugo-PaperMod.git
+	branch = main
 [submodule "public"]
 	path = public
 	url = http://github.com/palza4dev/palza4dev.github.io.git

@@ -3,22 +3,17 @@ title: "Test3"
 description: "Desc Text."
 date: 2022-03-25T14:36:15+09:00
 draft: false
-tags: ["test"]
-categories: ["test list"]
 series: ["the very first"]
-showToc: true
-TocOpen: false
+categories: ["test list"]
+tags: ["test"]
 draft: false
-hidemeta: false
-# canonicalURL: "https://canonical.url/to/page"
-
-disableShare: false
-disableHLJS: false
 ---
 
 Shows Index/Home page as Full Page with Social Links and Image
 
 add following to config file
+
+# asdf
 
 params:
 profileMode:

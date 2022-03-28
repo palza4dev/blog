@@ -1,31 +1,41 @@
-baseURL: "https://palza4dev.github.io"
+baseURL: https://palza4dev.github.io
 languageCode: en-us
 title: Mooner
 theme: PaperMod
+
 googleAnalytics: G-T68TSV1RG4
+
 disqusShortname: devblog-gdzaz0odmp
+
+enableRobotsTXT: false
 sitemap:
   changefreq: daily
   filename: sitemap.xml
   priority: 0.5
+
 taxonomies:
   author: authors
   category: categories
   tag: tags
   series: series
+
 params:
-  assets:
-    disableHLJS: true
   env: production
   comments: true
   description: Mooner's dev blog
   ShowFullTextinRSS: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowToc: true
   TocOpen: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
+  hidemeta: false
+
+  homeInfoParams:
+    Title: Hi there
+    Content: Can be Info, links, about...
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -38,12 +48,17 @@ params:
       - permalink
       - summary
       - content
+
+assets:
+  disableHLJS: true
+
 markup:
   highlight:
     codeFences: true
     guessSyntax: true
     lineNos: true
     style: monokai
+
 outputs:
   home:
     - HTML
@@ -51,15 +66,27 @@ outputs:
     - JSON
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: archive
+      name: Archives
+      url: /archives/
+      weight: 5
     - identifier: series
       name: Series
       url: /series/
-      weight: 5
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 15
     - identifier: tags
       name: Tags
       url: /tags/
       weight: 20
-    - identifier: github
-      name: Github
-      url: "https://github.com/palza4dev"
-      weight: 30
+    # - identifier: github
+    #   name: Github
+    #   url: "https://github.com/palza4dev"
+    #   weight: 30

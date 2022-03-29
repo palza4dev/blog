@@ -8,10 +8,10 @@ googleAnalytics: G-T68TSV1RG4
 disqusShortname: devblog-gdzaz0odmp
 
 enableRobotsTXT: false
-sitemap:
-  changefreq: daily
-  filename: sitemap.xml
-  priority: 0.5
+# sitemap:
+#   changefreq: daily
+#   filename: sitemap.xml
+#   priority: 0.5
 
 taxonomies:
   author: authors

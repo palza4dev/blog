@@ -9,30 +9,33 @@ tags: ["test"]
 images: ["/images/testforblog.png"]
 ---
 
+{{< figure src="/images/testforblog.png" title="test image 입니다" width=500 >}}
+{{<line_break>}}
 Shows Index/Home page as Full Page with Social Links and Image
 
 add following to config file
 
 # asdf
 
-params:
-profileMode:
-enabled: true
-title: "<Title>" # optional default will be site title
-subtitle: "This is subtitle"
-imageUrl: "<image link>" # optional
-imageTitle: "<title of image as alt>" # optional
+asdfjsalkf
+
+asdfkjlsd
+
+asdlkfjlsa
+
 imageWidth: 120 # custom size
 imageHeight: 120 # custom size
 buttons: - name: Archive
 url: "/archive" - name: Github
 url: "https://github.com/"
 
+```yaml
     socialIcons: # optional
         - name: "<platform>"
             url: "<link>"
         - name: "<platform 2>"
             url: "<link2>"
+```
 
 Search Page
 PaperMod uses Fuse.js Basic for seach functionality

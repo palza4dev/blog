@@ -1,7 +1,6 @@
 ---
-title: "Test3"
+title: "테스트 최신 호로로로로"
 description: "Desc Text."
-date: 2022-03-25T14:36:15+09:00
 draft: false
 series: ["the very first"]
 categories: ["test list"]

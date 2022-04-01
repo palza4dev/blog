@@ -2,6 +2,7 @@
 title: "테스트 최신 호로로로로"
 description: "Desc Text."
 draft: false
+date: 2022-03-31T20:13:16+09:00
 series: ["the very first"]
 categories: ["test list"]
 tags: ["test"]

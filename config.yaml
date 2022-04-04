@@ -14,10 +14,9 @@ sitemap:
   priority: 0.5
 
 taxonomies:
-  author: authors
+  series: series
   category: categories
   tag: tags
-  series: series
 
 params:
   env: production
